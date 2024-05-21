@@ -11,8 +11,11 @@
   "dependencies": {
     "openai": "^4.47.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "dev": "ts-node index.ts"
   }
 }
